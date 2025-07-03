@@ -1,0 +1,23 @@
+.css-navigation-link, .css-logout-link {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.css-navigation-link:hover, .css-logout-link:hover {
+  color: #0d6efd;
+}
+
+.css-search {
+  width: 93%;
+  border: none;
+  outline: none;
+}
+
+.css-users-table-head td {
+  background-color: #0d6efd;  
+  color: #f8f9fa;
+}
+
+.css-users-table-body td {
+  color: #6c757d;
+}

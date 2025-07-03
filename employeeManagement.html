@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timekeeping</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/styles/shared/navigation.css"> 
+  </head>
+
+  <body>
+    <div class="container-fluid main-container">
+      <div class="row">
+        <div class="col-2 min-vh-100 rounded shadow-sm navigation-container"></div>
+
+        <div class="col-10 content-container">
+          <div class="container-fluid p-3 mt-3 rounded shadow-sm">
+            <h5 class="text-primary m-0">Angel Christian L. Torrejos</h5>
+            <p class="text-secondary m-0">Admin</p>
+          </div>
+
+          <div class="container-fluid p-3 mt-3 rounded shadow-sm">
+            <h5 class="text-primary mb-3">Employee Management</h5> 
+
+            <div class="row mb-3">
+              <div class="col-6">
+                <input type="text" class="form-control text-center" placeholder="Search">
+              </div>
+
+              <div class="col-3"></div>
+
+              <div class="col-3">
+                <button class="form-control btn btn-primary">Create User</button>
+              </div>
+            </div>
+
+            <div>
+              <table class="table text-center table-bordered table-hover shadow-sm">
+                <thead class="css-users-table-head">
+                  <tr>
+                    <td>Id</td>
+                    <td>Role</td>
+                    <td>Name</td>
+                    <td>Department</td>
+                    <td>Position</td>
+                    <td>Registration Date</td>
+                  </tr>
+                </thead>
+                <tbody class="css-users-table-body js-users-table-body"></tbody>
+              </table>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script type="module" src="scripts/main/employeeManagementMain.js"></script>
+  </body>
+</html>
