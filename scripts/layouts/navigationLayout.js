@@ -8,7 +8,7 @@ export const loadNavigationLayout = async () => {
 
     const navigationLayout = await response.text();
 
-    const container = document.querySelector('.navigation-container');
+    const container = document.querySelector('.js-navigation-container');
 
     if (container) {
       container.innerHTML = navigationLayout;
